@@ -1,0 +1,28 @@
+{
+  "name": "remote-thermostat-server",
+  "version": "1.0.0",
+  "description": "NodeJS app built to offer RESTful webservices to remote-thermostat-android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkomyno/remote-thermostat-server.git"
+  },
+  "keywords": [
+    "iot",
+    "remote control",
+    "nodejs"
+  ],
+  "author": "jkomyno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkomyno/remote-thermostat-server/issues"
+  },
+  "homepage": "https://github.com/jkomyno/remote-thermostat-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
