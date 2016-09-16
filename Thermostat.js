@@ -1,20 +1,21 @@
 // Thermostat class
 (function() {
 
-	function Thermostat() {
-		this.status = false;
-		this.temperature = 18;
+	// getters
+	exports.getStatus = function() {
+		return true
 	}
 
-	// getters
-	function getStatus() {
-		return this.status
+	exports.getTemperature = function() {
+		return false
 	}
 
 	// setters
-	function setStatus(newStatus) {
-		this.status = newStatus
+	exports.setStatus = function(newStatus) {
+		console.log("newStatus is ", newStatus);
 	}
 
-	module.exports = Thermostat;
+	exports.setTemperature = function(newTemperature) {
+		console.log("newTemperature is ", newTemperature);
+	}
 })();
